@@ -223,7 +223,9 @@ header a:hover {
 
 .accordion-content img {
     width: 100%;
-    max-width: 260px;
+    height: 100%;
+    max-width: auto;
+    height: auto;
     border-radius: 12px;
     margin-bottom: 14px;
     object-fit: cover;
@@ -232,7 +234,7 @@ header a:hover {
 .accordion-gallery {
     display: flex;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 20px;
 }
 
 .accordion-gallery img {
